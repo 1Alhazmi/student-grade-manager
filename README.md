@@ -75,4 +75,4 @@ Input validation checks for empty fields. It does not enforce unique IDs, grade 
 
 ## Attribution and publication
 
-This is a team-based course assignment according to the course brief. Team names and Abdulrahman’s exact contribution are not identified in the located source folder in the available material. No sole-authorship claim or license has been added. The instructor’s project brief and binary JavaFX dependencies are excluded.
+Team size: not recorded in the available project files. No license has been added. The instructor’s project brief and binary JavaFX dependencies are excluded.
