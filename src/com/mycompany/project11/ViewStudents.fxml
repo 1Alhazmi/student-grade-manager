@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mycompany.project11.ViewStudentsController">
+
+    <Label text="View Students" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <TextArea fx:id="displayArea" prefWidth="400" prefHeight="250" editable="false" 
+              style="-fx-font-family: monospace;"/>
+
+    <Button text="Back to Dashboard" onAction="#handleBack" prefWidth="150"/>
+
+</VBox>

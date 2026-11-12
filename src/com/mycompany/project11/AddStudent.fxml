@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mycompany.project11.AddStudentController">
+
+    <Label text="Add New Student" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="studentIdField" promptText="Student ID" maxWidth="200"/>
+    <TextField fx:id="studentNameField" promptText="Student Name" maxWidth="200"/>
+
+    <Button text="Save Student" onAction="#handleSaveStudent" prefWidth="150"/>
+    <Button text="Back to Dashboard" onAction="#handleBack" prefWidth="150"/>
+
+    <Label fx:id="statusLabel"/>
+
+</VBox>

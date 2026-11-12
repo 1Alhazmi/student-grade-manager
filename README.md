@@ -4,7 +4,7 @@ A JavaFX desktop course project for Advanced Programming for CS (CS-4108), Umm A
 
 ## Repository status
 
-This repository currently publishes the project overview. The supporting files described below are prepared locally but have not yet been uploaded to GitHub. File paths describe that prepared package; they are not download links. Build commands require those source files and dependencies.
+This repository includes the original academic project files, documentation and available illustrations. Team credits and verification limits are preserved below.
 
 ## Features present in the code
 
@@ -36,7 +36,7 @@ The design demonstrates event handling, screen navigation, controller/resource c
 
 ## Files and layout
 
-Eight original Java files and six original FXML files are under `src/com/mycompany/project11/`. FXML files are colocated with App because App.loadFXML() resolves resources relative to its package. Java and FXML contents are unchanged. The prepared local package contains four original screenshots, listed below. Two additional source screenshots showing student IDs have been excluded from publication.
+Eight original Java files and six original FXML files are under `src/com/mycompany/project11/`. FXML files are colocated with App because App.loadFXML() resolves resources relative to its package. Java and FXML contents are unchanged. Four original submission screenshots are included below. Two additional source screenshots showing student IDs have been excluded from publication.
 
 ## Requirements and running the original project
 
@@ -55,15 +55,15 @@ Demo login: `admin` / `1234`. These are hardcoded classroom demonstration values
 
 `students.txt` and `grades.txt` are created in the working directory and are excluded from Git. Start with an empty directory and use fictional records for demonstrations.
 
-## Screenshots in the prepared local package
+## Original submission screenshots
 
-- Original screenshot: Login (`screenshots/P1.png`).
+![Login](screenshots/P1.png)
 
-- Original screenshot: Dashboard (`screenshots/P2.png`).
+![Dashboard](screenshots/P2.png)
 
-- Original screenshot: Student form validation (`screenshots/P3.png`).
+![Student form validation](screenshots/P3.png)
 
-- Original screenshot: Grade form (`screenshots/P4.png`).
+![Grade form](screenshots/P4.png)
 
 ## Verification
 

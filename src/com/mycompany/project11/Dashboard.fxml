@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mycompany.project11.DashboardController">
+
+    <Label text="Dashboard" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    <Label text="Welcome to Student Management System" style="-fx-font-size: 14px;"/>
+
+    <Button text="Add Student" onAction="#goToAddStudent" prefWidth="150"/> 
+    <Button text="Add Grades" onAction="#goToAddGrade" prefWidth="150"/> 
+    <Button text="View Students" onAction="#goToViewStudents" prefWidth="150"/> 
+    <Button text="View Reports" onAction="#goToViewReports" prefWidth="150"/> 
+    <Button text="Logout" onAction="#handleLogout" prefWidth="150"/>
+
+</VBox>
